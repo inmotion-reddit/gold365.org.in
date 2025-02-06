@@ -1,0 +1,588 @@
+    body {
+        margin: 0px;
+        color: #0f0f10;
+        padding: 0px;
+        font-family: "Roboto Condensed", sans-serif !important;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .list-inline-item:not(:last-child) {
+        margin-right: 0px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    p {
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    
+    .list-group-item {
+        position: relative;
+        padding: 0px;
+        text-decoration: none;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: 0px;
+    }
+    
+    ul {
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+        padding-inline-start: 0px;
+    }
+    
+    dl,
+    ol,
+    ul {
+        margin-top: 0;
+        margin-bottom: 0px;
+    }
+    
+    .mainLoginSection {
+        width: 100%;
+        background-image: linear-gradient(#000, #8000ff);
+        height: 100vh;
+    }
+    
+    .mainLoginSection .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .innerMainLoginSection {
+        width: 360px;
+        max-width: 360px;
+        padding: 20px;
+    }
+    
+    .loginSection {
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 4px;
+    }
+    
+    .innerMainLoginSection button i {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+    }
+    
+    .innerMainLoginSection button {
+        background-color: #000;
+        border-color: #000;
+        color: #fff;
+        width: 100%;
+        font-size: 15px;
+        position: relative;
+        text-align: center;
+        margin-bottom: 5px;
+        border-radius: 4px !important;
+        transition: 0.3s all ease-in-out;
+    }
+    
+    .innerMainLoginSection button:hover {
+        color: #000;
+        background-color: #000 !important;
+        border-color: #000 !important;
+    }
+    
+    .innerMainLoginSection h2 {
+        text-align: center;
+        color: #000;
+        text-transform: uppercase;
+    }
+    
+    .innerMainLoginSection p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    
+    .mailLink a {
+        font-size: 16px;
+        text-decoration: none;
+    }
+    
+    .mailLink a:hover {
+        color: #000;
+        text-decoration: underline;
+    }
+    
+    .mailLink {
+        text-align: center;
+    }
+    
+    .logoSec {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .logo {
+        max-height: 65px;
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .inputSection {
+        margin-bottom: 20px;
+    }
+    
+    .inputSection div {
+        width: 100%;
+        position: relative;
+    }
+    
+    .inputSection input {
+        width: 100%;
+        padding-right: 30px;
+        margin-bottom: 0px;
+        border-radius: 4px !important;
+        border: 1px solid #ccc;
+    }
+    
+    .inputSection img {
+        position: absolute;
+        top: 10px;
+        width: 18px;
+        right: 10px;
+    }
+    
+    .errorClass {
+        font-size: 12.8px;
+        color: #dc3545 !important;
+        display: none;
+    }
+    
+    .loginSection h2 {
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 8px;
+    }
+    
+    .loginSection h2 img {
+        width: 20px !important;
+    }
+    
+    .faqContainerMain {
+        padding: 20px;
+    }
+    
+    .faqContainerMain #accordion li {
+        background-color: #001890;
+        border-bottom: 1px solid #fff !important;
+        margin-bottom: 0px;
+        padding: 15px;
+        border-radius: 0px;
+        border: none;
+    }
+    
+    .accodHeader {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        font-weight: 600;
+        color: #fff;
+        font-family: "Rubik", sans-serif;
+    }
+    
+    .collapseLinkDiv p {
+        margin-top: 15px;
+        font-weight: 400;
+        color: #fff;
+        font-size: 15px;
+        line-height: 26px;
+    }
+    
+    .consHead {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .consHead h2 {
+        font-size: 20px;
+        font-weight: 800;
+        margin-bottom: 5px;
+    }
+    
+    .consHead h6 {
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 10px;
+        color: #000;
+    }
+    
+    .consHead h6 a {
+        color: #000;
+    }
+    
+    .faqAccodianSection a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .mainContentSection {
+        padding: 60px 20px;
+    }
+    
+    .mainContentSection h2 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    
+    .mainContentSection p {
+        font-size: 15px;
+    }
+    
+    .mainContentSection h4 {
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    
+    .imageSectionSide img {
+        width: 100%;
+        border-radius: 12px;
+    }
+    
+    .textSectionSide {
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .textSectionSide h5 {
+        font-size: 16px;
+        margin-top: 20px;
+        font-weight: 800;
+    }
+    
+    .yellowSectionMain {
+        background-color: #e9c5263b;
+        padding: 60px 20px;
+    }
+    
+    .upMainContent h1 {
+        font-size: 24px;
+        font-weight: 800;
+    }
+    
+    .upMainContent {
+        padding-bottom: 0px;
+    }
+    
+    .upMainContent .row {
+        margin-top: 50px;
+    }
+    
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer ul li a {
+        font-size: 14px;
+        font-weight: 700;
+        color: #000;
+    }
+    
+    .mobileappBtn {
+        width: 200px;
+        margin-bottom: 25px;
+        margin-top: 10px;
+    }
+    
+    .innerFooterSec {
+        border: 1.5px solid #ddd;
+        padding: 20px;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .innerFooterSec img {
+        width: 80px;
+        height: auto;
+    }
+    
+    .innerFooterSec p {
+        font-size: 13px;
+        padding-left: 30px;
+        line-height: 24px;
+        margin-bottom: 0px !important;
+    }
+    
+    .imgOne {
+        border-right: 1px solid #ddd !important;
+        margin-right: 20px;
+        padding-right: 20px;
+    }
+    /*  */
+    
+    @media screen and (max-width:991px) {
+        .imgOne {
+            border: none !important;
+            padding: 0px !important;
+            margin-right: 0px !important;
+        }
+        .innerFooterSec img {
+            margin-bottom: 20px;
+        }
+        .innerFooterSec {
+            display: block;
+            text-align: center;
+        }
+        .footer ul {
+            text-align: center !important;
+        }
+        .lastimg {
+            margin-bottom: 20px;
+        }
+        .seconfimg {
+            margin-top: 20px;
+        }
+    }
+    
+    .forgetPassword {
+        border: none !important;
+        background-color: #ff8c00 !important;
+    }
+    
+    .forgetPassword i {
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+    }
+    
+    button:hover {
+        color: #fff !important;
+    }
+    
+    .socialIcons {
+        border-top: 1px dashed #000;
+        margin-top: 10px;
+        padding-top: 10px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
+    
+    .socialIcons img {
+        position: absolute;
+        top: 40;
+        width: 30px;
+        left: 0;
+        animation: moveRight 0.8s infinite;
+    }
+    
+    @keyframes moveRight {
+        0% {
+            left: 0;
+        }
+        50% {
+            left: 10px;
+        }
+        100% {
+            left: 0px;
+        }
+    }
+    
+    .socialIcons ul {
+        margin-bottom: 0px !important;
+    }
+    
+    .socialIcons li {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    .socialIcons svg {
+        width: 20px;
+    }
+    /*  */
+    
+    .fullWidthImg {
+        width: 100%;
+    }
+    
+    .afterHero {
+        font-family: "Rubik", sans-serif;
+    }
+    
+    .mainH2Heading {
+        font-size: 26px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    
+    .afterHero p {
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 0px !important;
+    }
+    
+    .textSide {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+    }
+    
+    .textSide button {
+        width: fit-content;
+    }
+    
+    .afterHero button {
+        padding: 12px 48px;
+        border-radius: 20px;
+        line-height: 24px;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: .02em;
+        border: none;
+        outline: none;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        color: #fff;
+        background-color: #bb1c00;
+    }
+    
+    .afterHero li {
+        display: flex;
+        padding: 0px;
+        margin-bottom: 15px;
+        border: none !important;
+    }
+    
+    .afterHero li span {
+        margin-right: 5px;
+        margin-top: 2px;
+        font-weight: 500;
+    }
+    
+    .midButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0px !important;
+    }
+    
+    .fourCard .innerCardSectionTwo {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        margin: 20px 0px;
+        height: 320px;
+        box-shadow: 1px 1px 1px 1px #ddd;
+    }
+    
+    .innerCardSectionTwo img {
+        width: 80px;
+    }
+    
+    .otherimg {
+        width: 60px !important;
+        margin: 10px 0px;
+    }
+    
+    .innerCardSectionTwo h3 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    .gridCard .innerCardSectionTwo img {
+        margin-bottom: 10px !important;
+    }
+    
+    .gridCard .innerCardSectionTwo {
+        text-align: center;
+    }
+    
+    .innerCardSectionTwo {
+        height: 230px;
+        padding: 20px;
+        margin: 15px 0px;
+        box-shadow: 1px 1px 1px 1px #ddd;
+    }
+    
+    .inDivCard img {
+        width: 100%;
+    }
+    
+    .inDivCard {
+        background-color: #000;
+        border-radius: 12px;
+        color: #fff;
+        text-align: center;
+        overflow: hidden;
+        height: 470px;
+    }
+    
+    .inDivCard h3 {
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 15px;
+    }
+    
+    .inDivCard p {
+        padding: 0px 20px;
+    }
+    
+    .afterHero .container {
+        padding: 0px 100px;
+    }
+    
+    .threegrid {
+        text-align: center;
+    }
+    
+    .threegrid h4 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    .lastSectionFooter {
+        color: #fff;
+        background: #0b162a;
+    }
+    
+    .lastSectionFooter p {
+        margin-bottom: 0px;
+        font-size: 15px;
+        padding: 10px 20px;
+        text-align: center;
+    }

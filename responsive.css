@@ -1,0 +1,22 @@
+@media screen and (max-width:600px) {
+    .afterHero .container {
+        padding: 20px;
+    }
+    .textSide {
+        margin-bottom: 40px;
+    }
+    .threegrid p {
+        margin-bottom: 30px !important;
+    }
+    .inDivCard {
+        height: auto;
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+    }
+    .innerCardSectionTwo {
+        height: auto;
+    }
+    .fourCard .innerCardSectionTwo {
+        height: auto;
+    }
+}
