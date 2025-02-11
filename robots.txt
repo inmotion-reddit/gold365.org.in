@@ -1,5 +1,6 @@
 User-agent: *
-Disallow: 
+Disallow: /search?q={search_term_string}
+Disallow: /mail.php
 
 Sitemap: https://gold365.org.in/sitemap.xml
 Sitemap: https://gold365.org.in/images_sitemap.xml
